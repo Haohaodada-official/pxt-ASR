@@ -1,0 +1,19 @@
+{
+    "name": "ASR",
+    "version": "0.0.1",
+    "description": "Extension for ASR",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/ASR-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj"
+}

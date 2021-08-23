@@ -1,0 +1,5 @@
+{
+    "ASR.setup|block":"语音识别 初始化在引脚|%port",
+    "ASR.read|block": "语音识别 读取数据"
+
+}
