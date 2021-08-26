@@ -45,9 +45,17 @@ namespace ASR {
 
     //% weight=40
     //% blockId=ASR_read block="asr read"
+    //% blockSetVariable=ID
     export function read(): number{
-        let value = serial.readBuffer(1)[0];
-        return value;
+        let value = serial.readString()
+        if (value != "") {
+            for (let i = 0; i <= 255; i++) {
+                if (value == String.fromCharCode(i)) {
+                    return i
+                }
+            }
+        }
+        return -1
     }
 
 }
