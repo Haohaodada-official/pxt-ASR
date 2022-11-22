@@ -27,19 +27,11 @@ namespace ASR {
     //% blockId=ASR_setup block="asr setup at pin|%port"
     export function setup(port: Ports): void {
         
-        if(port != 1){
             serial.redirect(
-                SerialPin.P1,
+            SerialPin.P13,
                 PortSerial[port],
                 BaudRate.BaudRate115200
             ) 
-        }else {
-            serial.redirect(
-                SerialPin.P0,
-                SerialPin.P1,
-                BaudRate.BaudRate115200
-            )
-        }
 
     }
 

@@ -1,7 +1,7 @@
 {
     "name": "ASR",
-    "version": "0.0.1",
-    "description": "Extension for ASR",
+    "version": "0.0.2",
+    "description": "ASR-THREE离线语音识别模块",
     "license": "MIT",
     "dependencies": {
         "core": "*"
